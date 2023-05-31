@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="280dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:id="@+id/imageView1"
+            android:background="#999">
+        </ImageView>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="8dp"
+            android:background="#a00"
+            android:layout_gravity="top|right"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="IDR 300000"
+                android:textColor="#fff"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="4dp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Per Night"
+                android:textColor="#fff"
+                android:textSize="13sp"
+                ></TextView>
+        </LinearLayout>
+    </FrameLayout>
+ <ScrollView
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:layout_weight="1">
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="vertical">
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:text="Pantai Di Depan Mata, sunset indah"
+             android:textSize="24sp"
+             android:gravity="center"></TextView>
+         <TextView
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_margin="16dp"
+             android:gravity="center"
+             android:text="Daya Tarik Wisata alam pantai yang telah ada sejak 2012. Terkenal karena patung Pandawanya yang ikonik. Fasilitas cukup lengkap, kebersihannya tergolong cukup baik, target pasar cenderung travel grup dan wisnus, variasi atraksinya juga pada dasarnya baik. Saat ini banyak daya tarik kompetitor yg sejenis dan citranya banyak yg sudah melampaui Pantai Pandawa.
+Semoga Pantai Pandawa bisa terus mengikuti tren, agar tidak kalah pamor. Setelah masa pandemi kita berlibur ke pantai Pandawa. Batu cadas yang menjulang keren buat Selfi, pantainya sangat indah. Spot foto yang viral adalah di jalanan diantara 2 tebing sebelum memasuki pantai pandawa. Pantainya bagus, biru dan bersih. Sebenarnya mau sewa tenda dengan 2 kursi malasnya..tapi kok panas banget...untung agak di ujung ada warung yg sepertinya enak buat nongkrong. Dan benar aja, kita pesen makanan sambil nunggu, bisa maen2 di pantainya.Kemudian pantai pandawa Bali yang terletak di desa Kutuh, Nusa Dua, Pura Uluwatu dengan matahari terbenam ( sunset ) dan Makan malam di Jimbaran.Karena paket tour ini memberikan layanan pribadi atau private yang tidak di gabung dengan peserta lainnya, pertama, sopir dengan mobil pribadi yang nyaman akan menjemput anda di hotel atau lokasi anda sesuai kesepakatan pada saat pemesanan paket tour. Kemudian mengunjungi keindahan alam Bali Selatan yang lebih dikenal dengan nama kawasan Nusa Dua.Kawasan Nusa Dua merupakan daerah wisata yang bisa kita lihat dalam peta wisata Bali. Kawasan ini terletak di wilayah Bali selatan, letaknya sekitar 20 km dari bandara ngurah rai Bali. Bali Selatan ini memiliki daya tarik uatama pada wisata pantai seperti Pantai Pandawa, pantai padang-padang, pantai dreamland dan pantai melasti. Kemudian pantai pandawa Bali yang terletak di desa Kutuh, Nusa Dua, Pura Uluwatu dengan matahari terbenam ( sunset ) dan Makan malam di Jimbaran.Karena paket tour ini memberikan layanan pribadi atau private yang tidak di gabung dengan peserta lainnya, pertama, sopir dengan mobil pribadi yang nyaman akan menjemput anda di hotel atau lokasi anda sesuai kesepakatan pada saat pemesanan paket tour. Kemudian mengunjungi keindahan alam Bali Selatan yang lebih dikenal dengan nama kawasan Nusa Dua.Kawasan Nusa Dua merupakan daerah wisata yang bisa kita lihat dalam peta wisata Bali. Kawasan ini terletak di wilayah Bali selatan, letaknya sekitar 20 km dari bandara ngurah rai Bali. Bali Selatan ini memiliki daya tarik uatama pada wisata pantai seperti Pantai Pandawa, pantai padang-padang, pantai dreamland dan pantai melasti."></TextView>
+     </LinearLayout>
+ </ScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#EE4B2B"
+        android:textColor="#ffffff"
+        android:text="Booking sekarang!!!"></Button>
+</LinearLayout>
